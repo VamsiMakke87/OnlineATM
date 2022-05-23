@@ -14,8 +14,6 @@
 
 ## Screenshots
 
-[App Screenshot](https://github.com/VamsiMakke87/OnlineATM/tree/main/ScreenShots)
-
 - **Login**
 
 ![Login](https://github.com/VamsiMakke87/OnlineATM/blob/main/ScreenShots/1-Login.png)
