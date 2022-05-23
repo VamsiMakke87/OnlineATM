@@ -1,0 +1,217 @@
+
+html{
+  min-height: 100%;
+   margin: 0;
+}
+.login{
+  background-image: linear-gradient(45deg,red,blue);
+  background-size: 200% 200%;
+  color: white;
+}
+body,#menubody{
+    background-image: url("bg.png");
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+}
+
+#loginform{
+  font-family:aharoni,sans-serif;
+  color: black;
+  position: absolute;
+  font-weight: bolder;
+  font-size: 25px;
+  background-color: white;
+  padding: 100px;
+  padding-right:65px;
+  filter: blur(0px);
+  align-items: center;
+  left:450px;
+  top:150px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+#logininput{
+  padding: 15px;
+  width: 70%;
+  height: 15px;
+  font-size: 30px;
+}
+
+a{
+  font-size: 15px;
+}
+.invalid{
+  position: relative;
+  color: red;
+  margin: -19px;
+}
+button:hover{
+  font-size: 110%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#loginbutton{
+  display: inline-block;
+  background-color:#00cc00;
+  font-weight: bold;
+  font-size: 20px;
+  color:white;
+  padding: 15px 50px;
+  border-radius: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+#forinvalid{
+  margin: -25px;
+  color: red;
+}
+
+table,th,td{
+  border: 1px solid black;
+  text-align: center;
+  font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+}
+table{
+    width: 100%;
+}
+th, td {
+  padding: 15px;
+  width: 20%;
+  text-align: center;
+}
+ th{
+   text-align: center;
+   background-color:#00cc00;
+   color: white;
+ }
+ tr:nth-child(odd) {
+  background-color: #fff;
+}
+tr:nth-child(even) {
+  background-color: #eee;
+}
+#depbutton{
+  color: white;
+  background-color: #00cc00;
+  padding: 15px 32px;
+  font-size: 15px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+strong{
+  position:relative;
+  font-family: aharoni;
+  font-size: 40px;
+  color:  #00cc00;
+}
+#depform,#trform{
+  display: flex;
+  align-items: center;
+  color: black;
+  position: absolute;
+  font-weight: bolder;
+  font-size: 25px;
+  background-color: white;
+  padding: 100px;
+  padding-right:1px;
+  margin: 0 auto;
+  left:450px;
+  top:150px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  display: block;
+}
+#depinput{
+  padding: 5px;
+  width: 30%;
+  height: 15px;
+  font-size: 20px;
+}
+#depinvalid,#trinvalid{
+  position: relative;
+  color: red;
+}
+
+#homebutton,#homeicon{
+  color: black;
+  background-color: white;
+  padding: 15px 32px;
+  font-size: 15px;
+  transition-duration: 0.4s;
+}
+#menuicon:hover,#homeicon:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#logoutb{
+  clear: both;
+  float:right;
+  color: green;
+  padding: 15px 32px;
+  font-size: 30px;
+  background-color: white;
+  transition-duration: 0.4s;
+}
+button,#logoutb:hover {
+  background-color: #00cc00;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#balancetext{
+ font-size:20px;
+}
+
+#trform{
+  padding-right: 80px;
+}
+#trinput,#fpinput{
+  margin-bottom:4px;
+  width: 60%;
+  padding:5px;
+  font-size: 20px;
+}
+#trinvalid{
+  margin: -2px;
+  padding-bottom: -5px;
+}
+
+#menuicon{
+  position: relative;
+  left: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  float: left;
+  margin: 5px;
+  min-width: 170px;
+  min-height: 170px;
+  max-width: 280px;
+  max-height: 280px;
+}
+
+body{
+  min-height: 100%;
+  margin: 0;
+}
+#successfull{
+  font-style: aharoni;
+  font-size: 15px;
+  color: #ffd700;
+}
+
+#fpinput{
+
+  width:90%;
+}
+#divtext{
+  font-size: 15px;
+}
+
+#homeicon{
+
+  max-width: 60px;
+  max-height: 60px;
+}
+#logoutb{
+  clear: right;
+}
