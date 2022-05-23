@@ -12,7 +12,7 @@
 
 
 
-## Screenshots
+## [Screenshots](https://github.com/VamsiMakke87/OnlineATM/tree/main/ScreenShots)
 
 - **Login**
 
